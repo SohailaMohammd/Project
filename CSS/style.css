@@ -195,7 +195,6 @@ button {
 
 .box1 {
     float: left;
-    background-color: #f5e5d44a;
     width: 30%;
     padding: 16px 14px;
     text-align: center;
@@ -257,13 +256,14 @@ button {
 .features {
     margin: 30px auto;
     background-color: #e4d1bd;
-    height: 100vh;
-    padding-top: 20px;
+     height: 108vh;
+    padding-top: 20px; 
+
 
 }
 
 .images {
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
@@ -286,14 +286,13 @@ button {
 
 .cover {
     float: left;
-    margin-left: 30px;
-    margin: 10px 0px 17px 60px;
+    margin: 10px 0px 17px 45px;
     position: relative;
     height: 250px;
 }
 
 .image {
-    width: 250px;
+    width: 300px;
     height: 250px;
 }
 
@@ -546,6 +545,7 @@ button {
 
 .pricing h1 {
     text-align: center;
+    text-transform: capitalize;
 }
 
 .container {
@@ -566,7 +566,7 @@ button {
 }
 .con::after{
     content: "";
-    background-color: #f5e5d4;
+    background-color: #af937f;
     position: absolute;
     border-radius: 10px;
     visibility: hidden;
@@ -713,7 +713,7 @@ button {
 
 .team-item {
     float: left;
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(205, 204, 204);
     width: 30%;
     padding: 16px 14px;
     text-align: center;
@@ -745,9 +745,8 @@ button {
 .team-item::after {
 
     content: "";
-    background-color: #af937f;
+    background-color: #563622;
     position: absolute;
-    border-radius: 10px;
     height: 0;
     opacity: 0.4;
     transition: 0.9s;
@@ -818,7 +817,7 @@ button {
 
 .news-item {
     float: left;
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(229, 229, 229);
     width: 30%;
     padding: 16px 14px;
     text-align: center;
