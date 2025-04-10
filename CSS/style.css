@@ -612,6 +612,10 @@ button {
     position: relative;
     z-index: 1;
 }
+.con p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 .con a{
     position: relative;
     z-index: 1;
@@ -624,6 +628,10 @@ button {
     background-color: white;
     font-weight: 800;
     font-size: 14px;
+}
+.con a:hover{
+    background-color: #362419;
+    color: white;
 }
 /* End pricing  */
 
@@ -910,6 +918,11 @@ span {
     color: white;
     cursor: pointer;
     
+}
+.news-info a:hover{
+    background-color:rgb(229, 229, 229) ;
+    color: #362419;
+    border:2px solid #362419;
 }
 .news-item:hover .news-icons {
     visibility: visible;
